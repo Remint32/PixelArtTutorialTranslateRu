@@ -1,0 +1,77 @@
+/*
+Solarized theme
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+
+body
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	background: #002b36;
+	color: #93a1a1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.content {
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+a {
+	text-decoration: none;
+	color: #d33682;
+}
+
+a:hover { 
+	text-decoration: none;
+	color: #6c71c4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #859900;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+b, strong {
+	color: #2aa198;
+}
+
+i, em {
+	color: #268bd2;
+}
+
+img.zoom {
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: optimize-contrast;
+	image-rendering: pixelated;
+	-ms-interpolation-mode: nearest-neighbor;
+
+	margin: auto;
+}
