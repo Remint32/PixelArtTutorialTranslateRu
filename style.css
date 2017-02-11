@@ -57,6 +57,10 @@ h2 {
 	margin-top: 2em;
 }
 
+h3 {
+	margin-top: 1.5em; 
+}
+
 b, strong {
 	color: #2aa198;
 }
@@ -74,4 +78,9 @@ img.zoom {
 	-ms-interpolation-mode: nearest-neighbor;
 
 	margin: auto;
+}
+
+p > img.zoom {
+	margin-top: 5px;
+	margi-bottom: 3px;
 }
